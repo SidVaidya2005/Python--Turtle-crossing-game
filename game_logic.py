@@ -123,4 +123,3 @@ class GameStats:
     def persist(self, storage: StatsStorage) -> None:
         self._refresh_bests()
         storage.save(BestStats(best_score=self.best_score, best_level=self.best_level))
-

@@ -145,4 +145,3 @@ class GameController:
             except Terminator:
                 self.stats.persist(self.storage)
                 break
-

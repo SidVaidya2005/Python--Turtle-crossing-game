@@ -28,4 +28,3 @@ class LaneMarkers:
             self.turtle.pendown()
             self.turtle.goto(settings.SCREEN_WIDTH // 2, lane_y)
             self.turtle.penup()
-
