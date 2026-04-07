@@ -73,7 +73,7 @@ class CarManager:
                 "kind": obstacle_type,
                 "direction": direction,
                 "speed": speed,
-                "hitbox": config["hitbox"] + (4 if self.accessibility_mode else 0),
+                "hitbox": max(12, config["hitbox"] - (4 if self.accessibility_mode else 0)),
             }
         )
 

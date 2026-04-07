@@ -114,7 +114,7 @@ class GameStats:
         return self.lives <= 0
 
     def has_won(self) -> bool:
-        return self.level >= settings.TARGET_WIN_LEVEL
+        return self.level > settings.TARGET_WIN_LEVEL
 
     def _refresh_bests(self) -> None:
         self.best_score = max(self.best_score, self.score)
