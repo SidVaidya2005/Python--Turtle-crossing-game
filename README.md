@@ -26,6 +26,21 @@ A Turtle-based crossing game with progression, scoring, obstacle variety, and pe
 - Safe lanes and visual lane markers
 - Theme toggle and accessibility mode
 
+## Screenshots
+
+### Menu
+![Main menu](assets/screenshots/menu.png)
+
+### Gameplay
+![Active gameplay](assets/screenshots/gameplay.png)
+
+### Paused / Game Over
+![Paused state](assets/screenshots/paused.png)
+![Game over state](assets/screenshots/game_over.png)
+
+### Win / Progression
+![Win state with progressed HUD](assets/screenshots/win.png)
+
 ## Controls
 
 - `SPACE` → Start from menu
